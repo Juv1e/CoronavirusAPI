@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>Juv1e</Authors>
+    <Copyright>https://t.me/coronanotif</Copyright>
+    <Description>API для получения данных о коронавирусе.
+Новости, страны, города</Description>
+    <PackageId>CoronavirusAPITest</PackageId>
+    <AssemblyName>Coronavirus</AssemblyName>
+    <RootNamespace>Coronavirus</RootNamespace>
+    <AssemblyVersion>1.0.0.2</AssemblyVersion>
+    <Version>1.0.2</Version>
+    <NeutralLanguage></NeutralLanguage>
+    <FileVersion>1.0.1.2</FileVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Coronavirus">
+      <HintPath>bin\Debug\netcoreapp2.1\Coronavirus.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
