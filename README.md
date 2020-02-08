@@ -14,7 +14,7 @@
 
 
 
-## Использование
+## Пример
 
 ```csharp
 using Coronavirus;
